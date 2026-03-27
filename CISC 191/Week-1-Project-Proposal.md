@@ -135,6 +135,8 @@ A playable battleship game built in Java. The player places on a 10 x 10 grid an
 | LO7 | Catch of bad ship placement or any errors |
 | LO8 | `GameFileManager` saves and loads game into `.txt` |
 
+## Video
+[https://sdccd.us-west-2.instructuremedia.com/embed/42ef8761-1f40-4a7d-9c15-8b361ef81b9f]
 
 ## Planned Work Schedule
 Work per week --> 1 hour/day * 7 = 7 hours/week
