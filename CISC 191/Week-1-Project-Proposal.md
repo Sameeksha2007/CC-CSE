@@ -122,7 +122,6 @@ A playable battleship game built in Java. The player places on a 10 x 10 grid an
   Game ──uses──▶ BattleshipGUI
   Game ──uses──▶ GameFileManager
 ```
-## Video Explanation
 
 ## Demonstratation of LOs
 | LO | How It's Used in Battleship |
