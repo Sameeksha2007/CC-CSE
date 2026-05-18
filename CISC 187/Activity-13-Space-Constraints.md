@@ -36,9 +36,6 @@ Function creates new vector holding N elements.
 
 # Question 3. Create a new function to reverse an array that takes up just $O(1)$ extra space.
 ```
-#include <vector>
-#include <utility>  // for std::swap
-
 void reverseInPlace(std::vector<int>& array) {
     size_t left = 0;
     size_t right = array.size();
