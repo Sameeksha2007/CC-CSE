@@ -169,6 +169,8 @@ This week focused on the model layer: Cell, the abstract Ship class, and all fiv
 Board class, Player hierarchy, GUI, Game controller, file I/O.
 
 ## Screenshots:
+<img width="649" height="627" alt="image" src="https://github.com/user-attachments/assets/40b4193c-150a-405a-970c-2d9db0d4fd65" />
+<img width="616" height="706" alt="image" src="https://github.com/user-attachments/assets/e376f2e0-9c34-4e66-9f1f-1a52493b0ea4" />
 
 # Week 3
 ## Journal Entry
@@ -186,6 +188,9 @@ This week I built the Board class — the core data structure of the game. The 1
 Player hierarchy, GUI, Game controller, file I/O.
 
 ## Screenshots:
+<img width="700" height="736" alt="image" src="https://github.com/user-attachments/assets/2f0af80a-a6e7-4855-918b-5064f4764571" />
+<img width="487" height="137" alt="image" src="https://github.com/user-attachments/assets/68d08268-e0ef-48c7-81d6-e10c27634cda" />
+<img width="607" height="174" alt="image" src="https://github.com/user-attachments/assets/3f77df25-3c42-4626-88d0-c5d0012cff73" />
 
 # Week 4
 ## Journal Entry
@@ -203,6 +208,7 @@ This week I implemented the Player abstract class and both concrete subclasses: 
 GUI, Game controller, file I/O.
 
 ## Screenshots:
+<img width="789" height="755" alt="image" src="https://github.com/user-attachments/assets/5f31a77b-13e5-4e98-bcf8-9e85def90600" />
 
 # Week 5
 ## Journal Entry
@@ -220,6 +226,7 @@ This week I built the BattleshipGUI class using Java Swing. The two 10×10 JButt
 Game controller (wiring GUI ↔ logic), file I/O.
 
 ## Screenshots:
+<img width="1313" height="636" alt="image" src="https://github.com/user-attachments/assets/1d3d0ca6-7453-472a-b8b6-da63844cdb70" />
 
 # Week 6
 ## Journal Entry
@@ -235,6 +242,7 @@ This week I wrote the Game class, which wires everything together. A full game c
 File I/O, exception handling, polish, Javadoc.
 
 ## Screenshots:
+<img width="384" height="243" alt="image" src="https://github.com/user-attachments/assets/d63a08ed-6e30-4518-ab4c-3d167d765e0c" />
 
 # Week 7
 ## Journal Entry
@@ -248,6 +256,8 @@ The save file is a plain .txt file. The format serializes: game state, both boar
 Polish, full Javadoc, demo video.
 
 ## Screenshots:
+<img width="657" height="385" alt="image" src="https://github.com/user-attachments/assets/ec33b1f3-e50c-42c1-8348-93a9d930dcc9" />
+<img width="396" height="943" alt="image" src="https://github.com/user-attachments/assets/17fc9c74-8fe1-41c8-8c6b-b246b79ac568" />
 
 # Week 8
 ## Journal Entry
@@ -257,9 +267,7 @@ The OOP design held up throughout. When I needed to add the AI hunt/target logic
 Separating Game (logic controller) from BattleshipGUI (display) made debugging much easier. I could test Game logic in isolation before connecting the GUI.
 The InvalidPlacementException pattern from Week 3 paid off in Week 6 — Game.placeHumanShip() cleanly catches bad placements and shows a user-friendly error.
 - What I'd do differently:
-I'd implement the Model-View-Controller pattern more formally from the start. The boundary between Game and BattleshipGUI blurred slightly when I added save/load.
+I would like to remove the light color that shows the ship and the ships being randomly sorted to the location.
 I'd write more unit tests earlier. Manual console testing was fine for the model layer, but I caught a few GUI bugs late that earlier automated tests might have found.
 
-## Screenshots:
-
-## Demo Video: 
+## Demo Video: https://drive.google.com/file/d/1K5lO7hCOc49qtJVy2ndz2PsLAD1KuAFh/view?usp=sharing
