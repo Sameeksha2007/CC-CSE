@@ -270,4 +270,5 @@ The InvalidPlacementException pattern from Week 3 paid off in Week 6, Game.place
 I would like to remove the light color that shows the ship and the ships being randomly sorted to the location.
 I'd write more unit tests earlier. Manual console testing was fine for the model layer, but I caught a few GUI bugs late that earlier automated tests might have found.
 
-## Demo Video: https://drive.google.com/file/d/1K5lO7hCOc49qtJVy2ndz2PsLAD1KuAFh/view?usp=sharing
+## Demo Video of Game: https://drive.google.com/file/d/1K5lO7hCOc49qtJVy2ndz2PsLAD1KuAFh/view?usp=sharing
+## Demo Video Explaining LOs: https://drive.google.com/file/d/1GkqNteJQ7Wzf9eFIujlrYybcBnBMYLyA/view?usp=sharing
